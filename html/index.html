@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Using Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Wild Circus</title>
+  </head>
+
+  <body>
+    <!-- Afin de valider ton code HTML, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ -->
+    <header>
+      <!-- NAVIGATION -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#perfo" id="perfo-section">Performances</a></li>
+          <li><a href="#about" id="about-section">About Us</a></li>
+          <li><a href="#prices" id="prices-section">Prices</a></li>
+          <li><a href="#contact" id="contact-section">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- SHOWCASE -->
+      <div class="showcase">
+        <h1>Wild Circus</h1>
+        <p>Welcome to a magical &amp; amazing world&hellip;</p>
+      </div>
+    </header>
+    <!-- PERFORMANCES SECTION-->
+    <section>
+      <h2 id="perfo">Performances</h2>
+      <ul class="boxes">
+        <!-- Performance 1 -->
+        <li class="box">
+          <img src="../img/laugh.jpg" alt="A clown playing violin" />
+          <h3>Laugh</h3>
+          <p>
+            As an adult, come and discover our irresistible clowns, between
+            practical jokes and pranks let yourself be carried away by their joy
+            and fall back into childhood.
+          </p>
+        </li>
+        <!-- Performance 2 -->
+        <li class="box">
+          <img src="../img/magic.jpg" alt="A magician" />
+          <h3>Dream</h3>
+          <p>
+            Let yourself be carried away in a world where the real and the
+            imaginary are one, in the company of our talented magicians,
+            discover a wonderful world limited only by your imagination.
+          </p>
+        </li>
+        <!-- Performance 3 -->
+        <li class="box">
+          <img src="../img/marvel.jpg" alt="A lion tamer" />
+          <h3>Marvel at</h3>
+          <p>
+            Tame the untameable in the company of our tamers, between roar and
+            razor-sharp claws, watch these fierce felines turn into sweet
+            kittens.
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <hr />
+    <!-- ABOUT SECTION -->
+    <section>
+      <h2 id="about">About Us</h2>
+      <p class="about">
+        Welcome to the Wild Circus ! Enter in a world full of magic, beauty and dream. Our circus provides you an overall familly experience you can't find anywhere else. Come and let's experience shows full of funny clowns, stunts, tamers with exotic animals, defying acts&hellip; <a href="#">Learn more</a>.
+      </p>
+    </section>
+
+    <hr />
+    <!-- PRICES SECTION -->
+    <section>
+      <h2 id="prices">Prices</h2>
+      <div class="table-container">
+        <div class="table-one">
+          <table>
+            <caption>
+              Weeks admission tickets, except on Wednesday
+            </caption>
+            <thead></thead>
+              <tr>
+                <th>Adults</th>
+                <th>Children <i class="fas fa-info-circle" title="Free under 12 years old"></i></th>
+                <th>Groups <i class="fas fa-info-circle" title="More than 10 persons"></i></th>
+                <th>Schools</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&pound; 19.50/p</td>
+                <td>&pound; 5.50/p</td>
+                <td>&pound; 11.50/p</td>
+                <td>&pound; 3.50/p</td>
+              </tr>
+              <tr>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="ticket-pict">
+          <img src="../img/tickets.jpg" alt="Old fashion tickets">
+        </div>
+        <div class="table-two">
+          <table>
+            <caption>
+              Admission tickets on Wednesday &amp; weekends
+            </caption>
+            <thead></thead>
+              <tr>
+                <th>Adults</th>
+                <th>Children <i class="fas fa-info-circle" title="Free under 12 years old"></i></th>
+                <th>Groups <i class="fas fa-info-circle" title="More than 10 persons"></i></th>
+                <th>Schools</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&pound; 29.50/p</td>
+                <td>&pound; 9.50/p</td>
+                <td>&pound; 16.50/p</td>
+                <td>&pound; 5.50/p</td>
+              </tr>
+              <tr>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+                <td><a href="#" class="cart-btn">Buy now</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+    <!-- CONTACT SECTION -->
+    <section>
+      <h2 id="contact">Contact Us</h2>
+      <div class="cnt-section">
+        <div class="cnt-box">
+          <img src="../img/dream.jpg" alt="">
+        </div>
+        <div class="form-container">
+          <form method="POST" action="#">
+          <fieldset>
+           <legend>Contact form</legend>
+            <label for="firstname">Fisrtname :</label>
+            <input type="text" name="firstname" id="fstName" placeholder="Enter your firstname" required>
+            <label for="lastname">Lastname :</label>
+            <input type="text" name="lastname" id="lstName" placeholder="Enter your lastname" required>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="mail" placeholder="Enter your email" required>
+            <label for="comments">Please leave your comments :</label>
+            <textarea name="comments" id="cmts" cols="33" rows="10"></textarea>
+            <input class="submit-btn" type="submit" value="Send">
+          </fieldset>
+          </form>
+        </div>
+        <div class="cnt-box">
+          <img src="../img/acrobats.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <!-- TODO: Entre ton nom et prénom.
+      Mets en place un lien vers le site de la Wild Code School (https://wildcodeschool.fr).
+      Tu peux egalement mettre un lien sur ton nom vers ton site, ton blog ou ton profil github ou linkedin, si tu en a un.
+     -->
+      <p>
+        Wild Circus by Denis Gros - 13/01/2019
+      </p>
+      <p><a href="https://wildcodeschool.fr/" target="_blank">Wild Code School</a></p>
+      <p>
+        <a href="http://www.france-ioi.org/user/perso.php?sLogin=d3n5&bShow=Afficher" target="_blank">France-IOI</a> - 
+        <a href="https://www.sololearn.com/Profile/8291595" target="_blank">SoloLearn</a>
+      </p>
+      <p><a href="https://github.com/D3N5" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></p>
+    </footer>
+
+    <!-- JQuery imoprt-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+    </script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
